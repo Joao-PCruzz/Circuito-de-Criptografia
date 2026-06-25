@@ -15,7 +15,7 @@ Este repositório contém o projeto prático desenvolvido para a matéria de Sis
 ### 📌 Introdução Teórica
 O método do bit de paridade é uma das formas mais simples de detecção de erros em transmissões digitais. O circuito analisa um bloco de dados e adiciona um bit extra (bit de paridade), garantindo que a quantidade total de bits `1` na mensagem seja sempre PAR (Paridade Par) ou sempre ÍMPAR (Paridade Ímpar).
 
-Ele é um método de criptografia pois empacotaa uma mensagem com dígitos de paridade para validação, recepção de mensagem criptografada e desempacotamento da mensagem.
+Ele é um método de criptografia pois empacota uma mensagem com dígitos de paridade para validação, recepção de mensagem criptografada e desempacotamento da mensagem.
 
 Circuitos geradores de paridade dispensam a necessidade de simplificações por Mapas de Karnaugh, pois sua lógica é constituída fundamentalmente por portas XOR aninhadas em cascata para todas as suas entradas. 
 
