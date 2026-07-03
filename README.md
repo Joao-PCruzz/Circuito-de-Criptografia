@@ -29,14 +29,14 @@ Para garantir o comportamento síncrono exigido, o circuito foi dividido em bloc
 ### 🧪 Cenários de Teste
 
 #### Cenário A: Transmissão Normal (Sem Erros)
-Quando o sistema opera em modo convencional, a paridade calculada pelo transmissor coincide com a checagem no receptor. A saída final calibrada resulta em `0` (Sinal Verde), indicando transmissão bem-sucedida.
+Quando o sistema opera em modo convencional, a paridade calculada pelo transmissor coincide com a checagem no receptor. A saída final calibrada resulta em `0` (Sinal Verde), indicando transmissão bem-sucedida. Feito com entradas paralelas para exemplificar como seria.
 
-![Circuito Modo Normal](bit-de-paridade/gifs/VerificadorParidade.gif)
+![Circuito Modo Normal](bit-de-paridade/gifs/Verificador_Comum.gif)
 
 #### Cenário B: Teste com Injeção de Erro
-Uma porta XOR intermediária foi adicionada à saída do quinto Flip-Flop, controlada por uma chave manual (`Err`). Ao ativar essa chave ($1$), forçamos a inversão do bit de paridade original, simulando um ruído no canal de comunicação. O receptor identifica instantaneamente a divergência e altera a saída final para `1` (Erro Detectado).
+Uma porta XOR intermediária foi adicionada à saída do quinto Flip-Flop, controlada por uma chave manual (`Err`). Ao ativar essa chave ($1$), forçamos a inversão do bit de paridade original, simulando um ruído no canal de comunicação. O receptor identifica instantaneamente a divergência e altera a saída final para `1` (Erro Detectado). Montado com registrador de deslocamento para deixar mais sofisticado e próximo da realidade.
 
-![Circuito Injeção de Erro](bit-de-paridade/gifs/VerificadorComErro.gif)
+![Circuito Injeção de Erro](bit-de-paridade/videos/Verificador_com_Erro.mp4)
 
 ---
 *Próximas etapas do projeto (Hamming, CRC e Repetition) serão adicionadas nas seções seguintes.*
