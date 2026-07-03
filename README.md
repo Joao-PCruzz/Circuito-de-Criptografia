@@ -36,7 +36,7 @@ Quando o sistema opera em modo convencional, a paridade calculada pelo transmiss
 #### Cenário B: Teste com Injeção de Erro
 Uma porta XOR intermediária foi adicionada à saída do quinto Flip-Flop, controlada por uma chave manual (`Err`). Ao ativar essa chave ($1$), forçamos a inversão do bit de paridade original, simulando um ruído no canal de comunicação. O receptor identifica instantaneamente a divergência e altera a saída final para `1` (Erro Detectado). Montado com registrador de deslocamento para deixar mais sofisticado e próximo da realidade.
 
-![Circuito Injeção de Erro](bit-de-paridade/videos/Verificador_com_Erro.mp4)
+![Circuito Injeção de Erro](bit-de-paridade/imagens/VerificaçãoComErro.png)
 
 ---
 *Próximas etapas do projeto (Hamming, CRC e Repetition) serão adicionadas nas seções seguintes.*
