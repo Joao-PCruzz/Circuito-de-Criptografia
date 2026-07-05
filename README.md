@@ -63,7 +63,6 @@ Uma porta NOT aplicada ao ultimo valor de entrada antes do circito de envio de d
 
 ![Transmissor de Hamming](Transmissor-de-Hamming/gifs/CircuitoCompletoHamming.gif).
 
+---
 
-
-
-*Próximas etapas do projeto (Hamming, CRC e Repetition) serão adicionadas nas seções seguintes.*
+*Próximas etapas do projeto (CRC e Repetition) serão adicionadas nas seções seguintes.*
